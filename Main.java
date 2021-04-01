@@ -86,14 +86,25 @@ public static void results (members [] list, int highestIndex) throws IOExceptio
 
      for (int index = 0; index < list.length; index ++) {
        if (list[index].distance > list[highestIndex].distance * 0.7) {
-        bw.write(list[index].forename + list[index].surname + list[index].distance + "\n");
+        bw.write(list[index].forename + "," + list[index].surname + "," + list[index].distance + "\n");
         bw.write(index);
        }
       }
   
       bw.newLine();
-     bw.close();
+    
+    String textTwo = "\nThe number of whole marathons walked by each member is: \n";
 
+    bw.write(textTwo);
+
+    for (int index = 0; index < list.length; index ++) {
+    list[index].distance = list[index].distance / 26.22;
+    list[index].distance = (int) list[index].distance;
+    bw.write(list[index].forename + "," + list[index].surname + "," + list[index].distance + "\n");
+    }
+
+       bw.newLine();
+       bw.close();
        System.exit(0);
       }
 

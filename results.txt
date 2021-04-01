@@ -1,8 +1,31 @@
 The prize winning members are: 
-TeressaJones398.5
-RossDurrant409.0
-IanHunter385.7
-JamesKerr505.2
-	TisaSullivan484.2
-AlbertNvodo385.8
+Teressa,Jones,398.5
+Ross,Durrant,409.0
+Ian,Hunter,385.7
+James,Kerr,505.2
+	Tisa,Sullivan,484.2
+Albert,Nvodo,385.8
 
+
+The number of whole marathons walked by each member is: 
+Nikolai,Bryant,5.0
+Susan,Brown,1.0
+Teressa,Jones,15.0
+Martin,Daly,9.0
+Ross,Durrant,15.0
+Greg,Watson,3.0
+Wendy,Russell,3.0
+Pamela,Adkins,2.0
+Ian,Hunter,14.0
+James,Kerr,19.0
+Lesley,Wallace,2.0
+Kim,Pettigrew,9.0
+Steven,Johnstone,0.0
+Ali,Hussain,0.0
+Hasan,Abbas,11.0
+Jacek,Nowak,7.0
+Mirka,Kowalski,6.0
+Rudo,Hyper,4.0
+Tisa,Sullivan,18.0
+Albert,Nvodo,14.0
+
